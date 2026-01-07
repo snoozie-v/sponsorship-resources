@@ -2,28 +2,38 @@ export const stepsResources = [
 {
     step: 1,
     title: "Step 1: We admitted we were powerless over alcohol—that our lives had become unmanageable.",
-    description: [
-      "POWERLESSNESS over alcohol means the inability to consistently control alcohol use despite consequences.",
-      "UNMANAGEABILITY refers to the chaos and disorder in our lives resulting from alcoholism, whether actively drinking or not.",
-    ],
     instructions: "Write examples of how each of the following have shown up in your life. Include your emotional response to each example, such as pain, anger, shame, guilt, and fear.",
-    prompts: [
-      "PROGRESSION: This may mean using alcohol more often or for longer periods of time, increasing or losing tolerance, for it",
-      "LOSS OF CONTROL: This may mean trying to cut down on your use, not using and then using as much or more often than before, not drinking for days, weeks or months",
-      "DESTRUCTIVE BEHAVIOR: Examples may include physical or verbal abuse, destruction of property, suicide attempts, self-destructive behaviors",
-      "PREOCCUPATION: May mean looking forward to using alcohol, setting up situations to use, having a good supply on hand at all times",
-      "PROTECTIONS: These behaviors may include hiding bottles, sneaking alcohol, using breath sprays to cover up, switching liqour stores",
-      "JUSTIFYING ALCOHOL USE: Examples may include blaming people or situations for my alcoholism, making excuses, and/or rationalizing use",
-      "FINANCIAL PROBLEMS: Examples may include spending money on alcohol instead of food or rent. Having no savings, retirement plan, insurance, etc. Making poor financial decisions",
-      "WORK PROBLEMS: These may include being fired, jumping from job to job, poor work performance, high absenteeism, low motivation for success, disorganized household",
-      "PHYSICAL DETERIORATION: Symptoms include loss of physical attractiveness, liver/health problems, nervousness, weight loss/gain, disturbed eating and/or sleeping patterns, continued use of alchohol despite medical advice",
-      "SPIRITUAL EMPTINESS: There may be a conflict between your values and your behavior, spiritual longings, secret fear that God is not really there, resentment for a God that allows injustice",
-      "FAMILY AND SOCIAL PROBLEMS: These may include communication problems, loss of family, friends, social isolation, separation or divorce",
-      "EMOTIONAL PROBLEMS: These may refer to extreme anxiety, inability to express feelings unless drinking, difficulty in expressing anger appropriately, depressions, loneliness, moodiness",
-      "SEXUAL PROBLEMS: May include impotence, being non-orgasmic, indifference towards sex, inappropriate sexual behavior, sexual identity conflicts",
-      "LIFE GOAL PROBLEMS: These may refer to eucation issues, frequent goal changes, frequent geographic moves, frequent relationships, marriages, divorces"
-    ],
-    // You can add more arrays later, e.g., quotes: [], bigBookPages: [], etc.
+
+    subsections: {
+      powerlessness: {
+        label: "Powerlessness",
+        description: "Powerlessness over alcohol means the inability to consistently control alcohol use despite consequences.",
+        prompts: [
+          "PROGRESSION: This may mean using alcohol more often or for longer periods of time, increasing or losing tolerance",
+          "LOSS OF CONTROL: Trying to cut down on use, not using and then using as much or more, long periods of abstinence followed by relapse",
+          "DESTRUCTIVE BEHAVIOR: Physical or verbal abuse, destruction of property, suicide attempts, self-destructive behaviors",
+          "PREOCCUPATION: Looking forward to using, setting up situations to use, keeping a constant supply",
+          "PROTECTIONS: Hiding bottles, sneaking alcohol, using breath sprays, switching liquor stores",
+          "JUSTIFYING ALCOHOL USE: Blaming others or situations, making excuses, rationalizing continued drinking",
+          "PHYSICAL DETERIORATION: Continued use despite health problems, liver issues, weight changes, sleep/eating disturbances",
+          "SEXUAL PROBLEMS: Impotence, indifference, inappropriate behavior, identity conflicts"
+          // Add the exact 8 you want here
+        ]
+      },
+      unmanageability: {
+        label: "Unmanageability",
+        description: "Unmanageability refers to the chaos and disorder in our lives resulting from alcoholism, whether actively drinking or not.",
+        prompts: [
+          "FINANCIAL PROBLEMS: Spending money on alcohol over essentials, no savings, poor financial decisions",
+          "WORK PROBLEMS: Job loss, frequent changes, poor performance, absenteeism, disorganized home",
+          "SPIRITUAL EMPTINESS: Conflict between values and behavior, resentment toward God, feeling spiritually disconnected",
+          "FAMILY AND SOCIAL PROBLEMS: Communication breakdown, loss of relationships, isolation, separation/divorce",
+          "EMOTIONAL PROBLEMS: Extreme anxiety, mood swings, depression, loneliness, difficulty expressing feelings",
+          "LIFE GOAL PROBLEMS: Education issues, frequent moves, relationship instability, inability to follow through on goals"
+          // Add the exact 6 here
+        ]
+      }
+    }
   },
   { step: 2, 
     title: "Step 2: Came to believe that a Power grater than ourselves could restore us to sanity",

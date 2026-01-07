@@ -1,7 +1,8 @@
 // src/App.jsx
 import { Routes, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
-import StepResources from './components/StepResources';
+import StepOverview from './components/StepOverview';
+import StepSubsection from './components/StepSubsection';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       </h1>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/step/:stepNumber" element={<StepResources />} />
+        <Route path="/step/:stepNumber" element={<StepOverview />} />
+        <Route path="/step/:stepNumber/:subsection" element={<StepSubsection />} />
       </Routes>
     </div>
   );
