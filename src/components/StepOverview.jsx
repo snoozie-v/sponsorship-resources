@@ -24,7 +24,7 @@ function StepOverview() {
         Please select the area you'd like to focus on:
       </p>
 
-      <div className="grid grid-cols-2 gap-y-2 max-w-2xl mx-auto">
+      <div className="grid grid-cols-1 max-w-2xl mx-auto">
         {Object.entries(data.subsections).map(([key, sub]) => (
           <Link
             key={key}
