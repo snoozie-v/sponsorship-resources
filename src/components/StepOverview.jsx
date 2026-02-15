@@ -1,6 +1,7 @@
 // src/components/StepOverview.jsx
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { stepsResources } from '../resources/steps';
+import StepDocuments from './StepDocuments';
 
 function StepOverview() {
   const { stepNumber } = useParams();
@@ -64,6 +65,8 @@ function StepOverview() {
           </Link>
         ))}
       </div>
+
+      <StepDocuments stepNumber={step} />
 
       <div className="text-center mt-12">
         <Link

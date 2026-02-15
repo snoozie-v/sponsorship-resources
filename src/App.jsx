@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import StepOverview from './components/StepOverview';
 import StepSubsection from './components/StepSubsection';
+import ResourceLibrary from './components/ResourceLibrary';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/step/:stepNumber" element={<StepOverview />} />
         <Route path="/step/:stepNumber/:subsection" element={<StepSubsection />} />
+        <Route path="/resources" element={<ResourceLibrary />} />
       </Routes>
     </div>
   );
