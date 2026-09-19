@@ -10,22 +10,13 @@ export const documents = [
     description: 'Powerlessness worksheet for Step 1',
   },
   {
-    id: 'step-1-unmanageable',
-    title: 'Step 1 Unmanageable',
-    path: '/docs/step-1/step-1-unmanageable.docx',
-    type: 'docx',
-    steps: [1],
-    category: 'Step Work',
-    description: 'Unmanageability worksheet for Step 1',
-  },
-  {
     id: 'step-1-part-2',
-    title: 'Step 1 Part 2',
+    title: 'Step 1 Unmanageability',
     path: '/docs/step-1/step1part2.pdf',
     type: 'pdf',
     steps: [1],
     category: 'Step Work',
-    description: 'Additional Step 1 worksheet',
+    description: 'Unmanageability worksheet for Step 1',
   },
 
   // === Step 4 Workshop ===

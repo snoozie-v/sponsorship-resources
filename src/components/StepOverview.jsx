@@ -26,22 +26,12 @@ function StepOverview() {
         </h2>
       </div>
 
-      {/* Instructions Card */}
-      {data.instructions && (
-        <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-lg mb-10">
-          <h3 className="font-semibold text-amber-800 mb-2">Instructions</h3>
-          <p className="text-amber-900 leading-relaxed">
-            {data.instructions}
-          </p>
-        </div>
-      )}
-
       {/* Section Selection */}
-      <p className="text-lg text-center text-gray-600 mb-8">
-        Select an area to explore:
-      </p>
+      <h3 className="text-xl font-bold text-gray-900 mb-6">
+        Reflection Prompts for Step {step}
+      </h3>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {Object.entries(data.subsections).map(([key, sub]) => (
           <Link
             key={key}

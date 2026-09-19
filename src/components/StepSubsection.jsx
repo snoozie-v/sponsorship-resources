@@ -71,7 +71,7 @@ function StepSubsection() {
       {data.instructions && (
         <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8">
           <p className="text-amber-900 text-sm">
-            <span className="font-semibold">Remember:</span> {data.instructions}
+            <span className="font-semibold">Instructions:</span> {data.instructions}
           </p>
         </div>
       )}
