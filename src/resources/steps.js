@@ -9,7 +9,7 @@ export const stepsResources = [
         label: "Powerlessness",
         description: "Powerlessness over alcohol means the inability to consistently control alcohol use despite consequences.",
         prompts: [
-          "PROGRESSION: This may mean using alcohol more often or for longer periods of time, increasing or losing tolerance, for it",
+          "PROGRESSION: This may mean using alcohol more often or for longer periods of time, increasing or losing tolerance",
           "LOSS OF CONTROL: This may mean trying to cut down on your use, not using and then using as much or more often than before, not drinking for days, weeks or months",
           "DESTRUCTIVE BEHAVIOR: Examples may include physical or verbal abuse, destruction of property, suicide attempts, self-destructive behaviors",
           "PREOCCUPATION: May mean looking forward to using alcohol, setting up situations to use, having a good supply on hand at all times",
@@ -23,7 +23,7 @@ export const stepsResources = [
         prompts: [
           "FINANCIAL PROBLEMS: Examples may include spending money on alcohol/chemicals instead of food or rent. Having no savings, retirement plan, insurance, etc. Making poor financial decisions.",
           "WORK PROBLEMS: These may include being fired, jumping from job to job, poor work performance, high absenteeism, low motivation for success, disorganized household",
-          "PHYSICAL DETERIORATION: Symptoms include loss of physical attractiveness, liver/health problems, nervousness, weight loss/gain, disturbed eating and/or sleeping patterns, continued use of alcohol/chemicals despite medical advise",
+          "PHYSICAL DETERIORATION: Symptoms include loss of physical attractiveness, liver/health problems, nervousness, weight loss/gain, disturbed eating and/or sleeping patterns, continued use of alcohol/chemicals despite medical advice",
           "SPIRITUAL EMPTINESS: There may be a conflict between your values and your behavior, spiritual longings, secret fear that God is not really there, resentment for a God that allows injustice",
           "FAMILY AND SOCIAL PROBLEMS: These may include communication problems, loss of family, friends, social isolation, separation or divorce",
           "EMOTIONAL PROBLEMS: These may refer to extreme anxiety, inability to express feelings unless drinking/using, difficulty in expressing anger appropriately, depression, loneliness, moodiness",
